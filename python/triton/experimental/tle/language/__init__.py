@@ -69,6 +69,7 @@ def create_dist_tensor(buf_tensor):
     ctx.register_buffer(buf_tensor)
     return ctx
 
+
 _EXTENSION_APIS = frozenset({
     "make_tensor_view",
     "make_partition_view",
